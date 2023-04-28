@@ -3,7 +3,8 @@ name: Efimov E
 job: QA Engineer
 level: junior
 email: ilona@hexlet.io
-description: 
+description:
+  Прохожу обучение по направлению QA Engineer
 
 skills: 
   - знание основ тестирования ПО
