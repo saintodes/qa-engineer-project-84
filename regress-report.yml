@@ -10,7 +10,7 @@ test-cases:
 
 bugreports:
   - summary: |
-      #1. Нет возможности авторизоваться
+      1. Нет возможности авторизоваться
     environment: |
        Google Chrome  112.0.5615.138 (Официальная сборка) (64 бит)
        Windows 11
