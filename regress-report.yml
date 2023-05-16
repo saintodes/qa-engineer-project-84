@@ -3,7 +3,7 @@ test-cases:
   - summary: |
       №1. Проверка входа в аккаунт
     status: fail
-
+  
   - summary: |
       №1. Проверка входа в аккаунт
     status: fail
@@ -12,15 +12,15 @@ bugreports:
   - summary: |
       1. Нет возможности авторизоваться
     environment: |
-       Google Chrome  112.0.5615.138 (Официальная сборка) (64 бит)
-       Windows 11
-    steps-to-reproduce: |
-       1. Открыть начальную страницу интернет-магазина https://hexlet-products-store.vercel.app/
-       2. Нажать на кнопку "Login/Войти" в шапке сайта
+      Google Chrome  112.0.5615.138 (Официальная сборка) (64 бит)
+      Windows 11
+    steps-to-reproduce: >
+      - Открыть начальную страницу интернет-магазина https://hexlet-products-store.vercel.app/
+      - Нажать на кнопку "Login/Войти" в шапке сайта
     expected-result: |
-       Появится окно авторизации
+      Появится окно авторизации
     actual-result: |
-       Кнопка "Login/Войти" отсутствует
+      Кнопка "Login/Войти" отсутствует
 
 test-cases:
   - summary: |
