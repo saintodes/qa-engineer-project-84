@@ -22,8 +22,7 @@ bugreports:
     actual-result: |
       Кнопка "Login/Войти" отсутствует
 
-
-test-cases:
+test-cases-2:
   - summary: |
       №2. Успешная проверка поля поиска по названию товара
     status: pass
@@ -32,9 +31,9 @@ test-cases:
       №2. Успешная проверка поля поиска по названию товара
     status: pass
 
-bugreports: []
+bugreports-2: []
 
-test-cases:
+test-cases-3:
   - summary: |
       №3. Проверка вывода сообщения об ошибке поиска при вводе некорректных значений
     status: pass
@@ -43,7 +42,7 @@ test-cases:
       №3. Проверка вывода сообщения об ошибке поиска при вводе некорректных значений
     status: fail
 
-bugreports: 
+bugreports-3: 
   - summary: |
       №3. Если поиск не дал фактических результатов, отображаются все товары
     environment: |
@@ -58,7 +57,7 @@ bugreports:
     actual-result: |
       Отображаются все товары из каталога   
 
-test-cases:
+test-cases-4:
   - summary: |
       №4. Проверка поиска по разделам каталога
     status: pass
@@ -67,7 +66,7 @@ test-cases:
       №4. Проверка поиска по разделам каталога
     status: fail
  
-bugreports: 
+bugreports-4: 
   - summary: |
       №4. Поиск происходит по странице каталога, с которой был сделан запрос
     environment: |
@@ -82,7 +81,7 @@ bugreports:
     actual-result: |
       Поиск происходит только по странице каталога, с которой был сделан запрос
 
-test-cases:
+test-cases-5:
   - summary: |
       №5. Проверка контекста выданных значений при поиске по ключевому слову
     status: pass
@@ -91,9 +90,9 @@ test-cases:
       №5. Проверка контекста выданных значений при поиске по ключевому слову
     status: pass
  
-bugreports: []
+bugreports-5: []
 
-test-cases:
+test-cases-6:
   - summary: |
       №6. Проверка независимости регистра букв в поле поиска
     status: pass
@@ -102,9 +101,9 @@ test-cases:
       №6. Проверка независимости регистра букв в поле поиска
     status: pass
  
-bugreports: []
+bugreports-6: []
 
-test-cases:
+test-cases-7:
   - summary: |
       №7. Проверка результатов поиска по включению
     status: pass
@@ -113,9 +112,9 @@ test-cases:
       №7. Проверка результатов поиска по включению
     status: pass
  
-bugreports: []
+bugreports-7: []
 
-test-cases: 
+test-cases-8: 
   - summary: |
       №8. Проверка поиска по двум словам 
     status: pass
@@ -124,9 +123,9 @@ test-cases:
       №8. Проверка поиска по двум словам 
     status: pass  
 
-bugreports: []
+bugreports-8: []
 
-test-cases: 
+test-cases-9: 
   - summary: |
       №9. Проверка поиска по двум словам в обратном порядке
     status: pass
@@ -135,7 +134,7 @@ test-cases:
       №9. Проверка поиска по двум словам в обратном порядке
     status: fail
 
-bugreports: 
+bugreports-9: 
   - summary: |
       №9. В результатах поиска товар с встречаемой комбинацией слов отображается в середине списка
     environment: |
@@ -150,7 +149,7 @@ bugreports:
     actual-result: |
       В результатах поиска товар с встречаемой комбинацией слов отображается в середине списка
 
-test-cases:
+test-cases-10:
   - summary: |
       №10. Проверка пустого поискового запроса 
     status: pass
@@ -159,9 +158,9 @@ test-cases:
       №10. Проверка пустого поискового запроса 
     status: pass 
 
-bugreports: []
+bugreports-10: []
 
-test-cases:
+test-cases-11:
   - summary: |
       №11. Проверка выпадающего списка "Category/Категория"
     status: pass
@@ -170,9 +169,9 @@ test-cases:
       №11. Проверка выпадающего списка "Category/Категория"
     status: pass 
 
-bugreports: []
+bugreports-11: []
 
-test-cases:
+test-cases-12:
   - summary: |
       №12. Проверка поиска по категории
     status: pass
@@ -181,9 +180,9 @@ test-cases:
       №12. Проверка поиска по категории
     status: pass
 
-bugreports: []
+bugreports-12: []
 
-test-cases:
+test-cases-13:
   - summary: |
       №13. Проверка функциональности фильтра "Prise/Цена"
     status: pass
@@ -192,7 +191,7 @@ test-cases:
       №13. Проверка функциональности фильтра "Prise/Цена"
     status: fail
 
-bugreports: 
+bugreports-13: 
   - summary: |
       №13.  Поиск по цене отображает товары с ценой выше заданных максимальных значений
     environment: |
@@ -207,7 +206,7 @@ bugreports:
     actual-result: |
       Поиск выводит товары, которые по стоимости превышают введенное значение
 
-test-cases:
+test-cases-14:
   - summary: |
       №14. Проверка возможности ввода отрицательных значений в поля фильтра "Prise/Цена"
     status: fail
@@ -216,9 +215,9 @@ test-cases:
       №14. Проверка возможности ввода отрицательных значений в поля фильтра "Prise/Цена"
     status: pass
 
-bugreports: []
+bugreports-14: []
 
-test-cases:
+test-cases-15:
   - summary: |
       №15. При использовании фильтра "Prise/Цена" выводятся товары по цене с учетом скидки
     status: fail
@@ -227,7 +226,7 @@ test-cases:
       №15. При использовании фильтра "Prise/Цена" выводятся товары по цене с учетом скидки
     status: fail
 
-bugreports: 
+bugreports-15: 
   - summary: | 
       №15. Поиск по цене происходит по значению полной стоимости товара
     environment: |
@@ -242,7 +241,7 @@ bugreports:
     actual-result: |
       Выводятся все товары из каталога
 
-test-cases:
+test-cases-16:
   - summary: |
       №16. Успешная проверка фильтрации по производителю
     status: pass
@@ -251,9 +250,9 @@ test-cases:
       №16. Успешная проверка фильтрации по производителю
     status: pass
 
-bugreports: []
+bugreports-16: []
 
-test-cases:
+test-cases-17:
   - summary: |
       №17. Проверка фильтра "In Stock/В наличии"
     status: pass
@@ -262,9 +261,9 @@ test-cases:
       №17. Проверка фильтра "In Stock/В наличии"
     status: pass
  
-bugreports: []
+bugreports-17: []
 
-test-cases:
+test-cases-18:
   - summary: |
       №18. Проверка отображаемой информации на карточке товара в каталоге
     status: fail
@@ -273,7 +272,7 @@ test-cases:
       №18. Проверка отображаемой информации на карточке товара в каталоге
     status: fail
  
-bugreports: 
+bugreports-18: 
   - summary: | 
       №18. На карточке товара (на странице каталога) не указан рейтинг товара
     environment: |
@@ -287,7 +286,7 @@ bugreports:
     actual-result: |
       На карточке товара в каталоге не указан рейтинг товара
 
-test-cases:
+test-cases-19:
   - summary: |
       №19. Проверка перехода на страницу с подробной информацией о товаре
     status: pass
@@ -296,9 +295,9 @@ test-cases:
       №19. Проверка перехода на страницу с подробной информацией о товаре
     status: pass
  
-bugreports:  []
+bugreports-19: []
 
-test-cases:
+test-cases-20:
   - summary: |
       №20. Проверка кнопки "Add to card/В корзину" на карточке товара
     status: fail
@@ -307,7 +306,7 @@ test-cases:
       №20. Проверка кнопки "Add to card/В корзину" на карточке товара
     status: fail
  
-bugreports: 
+bugreports-20: 
   - summary: | 
       №20. При добавлении товара в корзину нет всплывающего окна с информацией о том, что товар добавлен в корзину
     environment: |
@@ -321,7 +320,7 @@ bugreports:
     actual-result: |
       Нет всплывающего окна, подтверждающего, что товар добавлен в корзину
 
-test-cases:
+test-cases-21:
   - summary: |
       №21. Проверка кнопки "Add to card/В корзину" на странице с подробной информацией о товаре
     status: pass
@@ -330,9 +329,9 @@ test-cases:
       №21. Проверка кнопки "Add to card/В корзину" на странице с подробной информацией о товаре
     status: pass
  
-bugreports:  []
+bugreports-21: []
 
-test-cases:
+test-cases-22:
   - summary: |
       №22. Проверка возможности перехода в корзину
     status: pass 
@@ -341,9 +340,9 @@ test-cases:
       №22. Проверка возможности перехода в корзину
     status: pass 
  
-bugreports:  []
+bugreports-22: []
 
-test-cases:
+test-cases-23:
   - summary: |
       №23. Проверка кнопки "Continue shopping/Продолжить покупки"
     status: pass
@@ -352,7 +351,7 @@ test-cases:
       №23. Проверка кнопки "Continue shopping/Продолжить покупки"
     status: fail
  
-bugreports:  
+bugreports-23:  
   - summary: |
       №23. Кнопка "Continue shopping/Продолжить покупки" не возвращает на страницу добавленного в корзину товара
     environment: |
@@ -370,7 +369,7 @@ bugreports:
     actual-result: |
       Отображается 2 страница каталога товаров
 
-test-cases:
+test-cases-24:
   - summary: |
       №24. Проверка возможности редактирования корзины
     status: fail
@@ -379,7 +378,7 @@ test-cases:
       №24. Проверка возможности редактирования корзины
     status: fail 
  
-bugreports:  
+bugreports-24:  
   - summary: | 
       №24. Нельзя добавлять единицы товара при редактировании корзины
     environment: |
@@ -395,7 +394,7 @@ bugreports:
     actual-result: |
       Можно только удалять единицы товара
 
-test-cases:
+test-cases-25:
   - summary: |
       №25. Проверка возможности очистки содержимого корзины
     status: pass
@@ -404,7 +403,7 @@ test-cases:
       №25. Проверка возможности очистки содержимого корзины
     status: fail
  
-bugreports: 
+bugreports-25: 
   - summary: | 
       №25. При отчистке корзины и обновлении страницы, товары корзины восстанавливаются
     environment: |
@@ -422,7 +421,7 @@ bugreports:
     actual-result: |
       После отчистки корзины и обновлении страницы в корзине восстанавливаются удаленные товары
 
-test-cases:
+test-cases-26:
   - summary: |
       №26. Проверка возможности оформить заказ
     status: pass
@@ -431,9 +430,9 @@ test-cases:
       №26. Проверка возможности оформить заказ
     status: pass
   
-bugreports:  []
+bugreports-26: []
 
-test-cases:
+test-cases-27:
   - summary: |
       №27. Проверка кнопки "Close/Закрыть" в окне с подтверждением заказа
     status: pass
@@ -442,9 +441,9 @@ test-cases:
       №27. Проверка кнопки "Close/Закрыть" в окне с подтверждением заказа
     status: pass 
  
-bugreports:  []
+bugreports-27: []
 
-test-cases:
+test-cases-28:
   - summary: |
       №28. Проверка кнопки закрытия окна подтверждения заказа
     status: fail
@@ -453,7 +452,7 @@ test-cases:
       №28. Проверка кнопки закрытия окна подтверждения заказа
     status: fail
  
-bugreports:  
+bugreports-28:  
   - summary: | 
       №28. Кнопка закрытия окна подтверждения заказа не работает
     environment: |
@@ -470,7 +469,7 @@ bugreports:
     actual-result: |
       Кнопка закрытия окна подтверждения заказа не работает
 
-test-cases:
+test-cases-29:
   - summary: |
       №29. Проверка изменения языковых настроек страницы 
     status: fail
@@ -479,7 +478,7 @@ test-cases:
       №29. Проверка изменения языковых настроек страницы 
     status: fail
  
-bugreports:  
+bugreports-29:  
   - summary: | 
       №29. При смене языка на русский описание товара и список категорий не переводятся 
     environment: |
@@ -493,7 +492,7 @@ bugreports:
     actual-result: |
       На русский язык переводится лишь часть текстовых данных (Кнопки, шапка, некоторые фильтры)
 
-test-cases:
+test-cases-30:
   - summary: |
       №30. Проверка дизайна сайта на совместимость с Google Chrome
     status: pass
@@ -502,9 +501,9 @@ test-cases:
       №30. Проверка дизайна сайта на совместимость с Google Chrome
     status: pass
  
-bugreports:  []
+bugreports-30: []
 
-test-cases:
+test-cases-31:
   - summary: |
       №31. Проверка дизайна сайта на совместимость с FireFox
     status: pass
@@ -513,9 +512,9 @@ test-cases:
       №31. Проверка дизайна сайта на совместимость с FireFox
     status: pass 
  
-bugreports:  []
+bugreports-31: []
 
-test-cases:
+test-cases-32:
   - summary: |
       №32. Проверка функциональности сайта на совместимость с Google Chrome
     status: pass
@@ -524,9 +523,9 @@ test-cases:
       №32. Проверка функциональности сайта на совместимость с Google Chrome
     status: pass
  
-bugreports:  []
+bugreports-32: []
 
-test-cases:
+test-cases-33:
   - summary: |
       №33. Проверка функциональности сайта на совместимость с FireFox
     status: pass
@@ -535,9 +534,9 @@ test-cases:
       №33. Проверка функциональности сайта на совместимость с FireFox
     status: pass
  
-bugreports: []
+bugreports-33: []
 
-test-cases:
+test-cases-34:
   - summary: |
       №34. Проверка загрузки страницы
     status: pass 
@@ -546,9 +545,9 @@ test-cases:
       №34. Проверка загрузки страницы
     status: pass 
    
-bugreports: []
+bugreports-34: []
 
-test-cases:
+test-cases-35:
   - summary: |
       №35. Cookie передаются на сервер по протоколу HTTPS
     status: pass
@@ -557,9 +556,9 @@ test-cases:
       №35. Cookie передаются на сервер по протоколу HTTPS
     status: pass
  
-bugreports:  [] 
+bugreports-35: [] 
 
-test-cases:
+test-cases-36:
   - summary: |
       №36. Сайт является SPA-приложением и не перезагружает страницу
     status: pass
@@ -568,9 +567,9 @@ test-cases:
       №36. Сайт является SPA-приложением и не перезагружает страницу
     status: pass
  
-bugreports:  []
+bugreports-36: []
 
-test-cases:
+test-cases-37:
   - summary: |
       №37. Проверка адаптивности сайта под мобильные устройства
     status: fail
@@ -579,7 +578,7 @@ test-cases:
       №37. Проверка адаптивности сайта под мобильные устройства
     status: fail
  
-bugreports: 
+bugreports-37: 
   - summary: |
       №37. Не отображаются фильтры
     environment: |
@@ -594,7 +593,7 @@ bugreports:
     actual-result: |
       Не отображаются фильтры
 
-test-cases:
+test-cases-38:
   - summary: |
       №38. Проверка адаптивности сайта под различные устройства 
     status: pass
@@ -603,9 +602,9 @@ test-cases:
       №38. Проверка адаптивности сайта под различные устройства 
     status: pass
  
-bugreports: []
+bugreports38: []
 
-test-cases:
+test-cases-39:
   - summary: |
       №39. Проверка возможности просмотра страниц каталога
     status: fail   
@@ -614,4 +613,4 @@ test-cases:
       №39. Проверка возможности просмотра страниц каталога
     status: Pass  
  
-bugreports: []
+bugreports-39: []
