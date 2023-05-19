@@ -22,6 +22,7 @@ bugreports:
     actual-result: |
       Кнопка "Login/Войти" отсутствует
 
+
 test-cases:
   - summary: |
       №2. Успешная проверка поля поиска по названию товара
