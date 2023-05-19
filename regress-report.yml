@@ -154,7 +154,7 @@ test-cases:
  
   - summary: |
       №39. Проверка возможности просмотра страниц каталога
-    status: Pass       
+    status: pass       
 
 bugreports:
   - summary: |
